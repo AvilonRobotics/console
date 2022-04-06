@@ -106,6 +106,8 @@ type MinioAdmin interface {
 	serverHealthInfo(ctx context.Context, healthDataTypes []madmin.HealthDataType, deadline time.Duration) (interface{}, string, error)
 	// List Tiers
 	listTiers(ctx context.Context) ([]*madmin.TierConfig, error)
+	// Tier Info
+	tierStats(ctx context.Context) ([]madmin.TierInfo, error)
 	// Add Tier
 	addTier(ctx context.Context, tier *madmin.TierConfig) error
 	// Edit Tier Credentials
@@ -280,6 +282,7 @@ func (ac AdminClient) serviceTrace(ctx context.Context, threshold int64, s3, int
 
 // implements madmin.GetLogs()
 func (ac AdminClient) getLogs(ctx context.Context, node string, lineCnt int, logKind string) <-chan madmin.LogInfo {
+
 	return ac.Client.GetLogs(ctx, node, lineCnt, logKind)
 }
 
@@ -409,6 +412,11 @@ func (ac AdminClient) serverHealthInfo(ctx context.Context, healthDataTypes []ma
 // implements madmin.listTiers()
 func (ac AdminClient) listTiers(ctx context.Context) ([]*madmin.TierConfig, error) {
 	return ac.Client.ListTiers(ctx)
+}
+
+// implements madmin.tierStats()
+func (ac AdminClient) tierStats(ctx context.Context) ([]madmin.TierInfo, error) {
+	return ac.Client.TierStats(ctx)
 }
 
 // implements madmin.AddTier()

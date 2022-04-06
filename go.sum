@@ -910,8 +910,8 @@ github.com/minio/minio-go/v7 v7.0.11-0.20210302210017-6ae69c73ce78/go.mod h1:mTh
 github.com/minio/minio-go/v7 v7.0.20/go.mod h1:ei5JjmxwHaMrgsMrn4U/+Nmg+d8MKS1U2DAn1ou4+Do=
 github.com/minio/minio-go/v7 v7.0.23 h1:NleyGQvAn9VQMU+YHVrgV4CX+EPtxPt/78lHOOTncy4=
 github.com/minio/minio-go/v7 v7.0.23/go.mod h1:ei5JjmxwHaMrgsMrn4U/+Nmg+d8MKS1U2DAn1ou4+Do=
-github.com/minio/operator v0.0.0-20220322220228-ae7a32a7c19e h1:1kCAjR+Hja+yxKZQAEPhKS4lllMeiPPdTq60Tf3m4Tw=
-github.com/minio/operator v0.0.0-20220322220228-ae7a32a7c19e/go.mod h1:4Bo6a+XrBFEfCiiEtB14bw8l/nT3hcvZQKrZGZu27mA=
+github.com/minio/operator v0.0.0-20220401213108-1e35dbf22c40 h1:rVtPYka0KuwyKzdQoCnrXizEI+S4BLzNhs6S/GHkthE=
+github.com/minio/operator v0.0.0-20220401213108-1e35dbf22c40/go.mod h1:4Bo6a+XrBFEfCiiEtB14bw8l/nT3hcvZQKrZGZu27mA=
 github.com/minio/pkg v1.0.3/go.mod h1:obU54TZ9QlMv0TRaDgQ/JTzf11ZSXxnSfLrm4tMtBP8=
 github.com/minio/pkg v1.1.11/go.mod h1:2WJAxesjzmPK9MnLZKm5n1hVYfBg04f2GQs6N5ImNU8=
 github.com/minio/pkg v1.1.14/go.mod h1:2WJAxesjzmPK9MnLZKm5n1hVYfBg04f2GQs6N5ImNU8=
