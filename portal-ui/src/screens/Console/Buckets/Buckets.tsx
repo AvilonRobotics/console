@@ -23,7 +23,7 @@ import { setMenuOpen } from "../../../actions";
 import NotFoundPage from "../../NotFoundPage";
 import LoadingComponent from "../../../common/LoadingComponent";
 
-const ListBuckets = React.lazy(() => import("./ListBuckets/ListBuckets"));
+const ListBuckets = React.lazy(() => import("./ListBuckets/ListBuckets-patch"));
 const BucketDetails = React.lazy(() => import("./BucketDetails/BucketDetails"));
 const BrowserHandler = React.lazy(
   () => import("./BucketDetails/BrowserHandler")
