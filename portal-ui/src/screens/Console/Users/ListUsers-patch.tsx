@@ -340,13 +340,13 @@ const ListUsers = ({ classes, setErrorSnackMessage, history }: IUsersProps) => {
                     iconComponent={<UsersIcon />}
                     help={
                       <Fragment>
-                        A MinIO user consists of a unique access key (username)
+                        A avilon robotics user consists of a unique access key (username)
                         and corresponding secret key (password). Clients must
                         authenticate their identity by specifying both a valid
                         access key (username) and the corresponding secret key
-                        (password) of an existing MinIO user.
+                        (password) of an existing avilon robotics user.
                         <br />
-                        <br />
+                        {/* <br />
                         Each user can have one or more assigned policies that
                         explicitly list the actions and resources to which that
                         user has access. Users can also inherit policies from
@@ -360,8 +360,8 @@ const ListUsers = ({ classes, setErrorSnackMessage, history }: IUsersProps) => {
                           rel="noreferrer"
                         >
                           documentation
-                        </a>
-                        .
+                        </a> */}
+                        {/* . */}
                       </Fragment>
                     }
                   />
