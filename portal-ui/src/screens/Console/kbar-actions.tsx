@@ -17,7 +17,7 @@
 import { Action } from "kbar/lib/types";
 import history from "../../history";
 import { BucketsIcon } from "../../icons";
-import { validRoutes } from "./valid-routes";
+import { validRoutes } from "./valid-routes-patch";
 
 export const routesAsKbarActions = (
   features: string[] | null,

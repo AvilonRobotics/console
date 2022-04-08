@@ -15,7 +15,7 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import * as React from "react";
 import { KBarProvider } from "kbar";
-import Console from "./Console";
+import Console from "./Console-patch";
 import { AppState } from "../../store";
 import { connect } from "react-redux";
 import CommandBar from "./CommandBar";

@@ -22,7 +22,7 @@ import { AppState } from "../../../store";
 import { setMenuOpen } from "../../../actions";
 import NotFoundPage from "../../NotFoundPage";
 
-import ListUsers from "./ListUsers";
+import ListUsers from "./ListUsers-patch";
 import UserDetails from "./UserDetails";
 import { IAM_PAGES } from "../../../common/SecureComponent/permissions";
 

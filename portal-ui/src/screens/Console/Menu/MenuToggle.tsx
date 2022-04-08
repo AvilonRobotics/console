@@ -16,7 +16,7 @@
 
 import React, { Suspense } from "react";
 import OperatorLogo from "../../../icons/OperatorLogo";
-import ConsoleLogo from "../../../icons/ConsoleLogo";
+import ConsoleLogo from "../../../icons/ConsoleLogo-patch";
 import { VersionIcon } from "../../../icons";
 import { Box, IconButton } from "@mui/material";
 import { ChevronLeft } from "@mui/icons-material";

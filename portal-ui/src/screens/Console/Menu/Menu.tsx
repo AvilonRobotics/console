@@ -33,7 +33,7 @@ import api from "../../../common/api";
 import { resetSession } from "../actions";
 import MenuToggle from "./MenuToggle";
 import ConsoleMenuList from "./ConsoleMenuList";
-import { validRoutes } from "../valid-routes";
+import { validRoutes } from "../valid-routes-patch";
 
 const drawerWidth = 250;
 

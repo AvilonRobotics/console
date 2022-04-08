@@ -22,7 +22,7 @@ import ProtectedRoute from "./ProtectedRoutes";
 import LoadingComponent from "./common/LoadingComponent";
 import AppConsole from "./screens/Console/ConsoleKBar";
 
-const Login = React.lazy(() => import("./screens/LoginPage/LoginPage"));
+const Login = React.lazy(() => import("./screens/LoginPage/LoginPage-patch"));
 const LoginCallback = React.lazy(
   () => import("./screens/LoginPage/LoginCallback")
 );
