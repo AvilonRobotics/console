@@ -4,7 +4,7 @@ services:
   build:
    context: .
    dockerfile: Dockerfile.release
-  image: janus:1.0
+  image: minio-console:1.0
   environment:
    - CONSOLE_MINIO_SERVER=http://172.31.8.148:9000
   entrypoint: ["/console", "server", "--port", "9001"]

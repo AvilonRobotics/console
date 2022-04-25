@@ -340,7 +340,7 @@ const ListUsers = ({ classes, setErrorSnackMessage, history }: IUsersProps) => {
                     iconComponent={<UsersIcon />}
                     help={
                       <Fragment>
-                        A avilon ROBOTICS user consists of a unique access key (username)
+                        An avilon ROBOTICS user consists of a unique access key (username)
                         and corresponding secret key (password). Clients must
                         authenticate their identity by specifying both a valid
                         access key (username) and the corresponding secret key
