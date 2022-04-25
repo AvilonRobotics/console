@@ -267,17 +267,6 @@ const Groups = ({ classes, setErrorSnackMessage }: IGroupsProps) => {
                       <Fragment>
                         A group can have one attached IAM policy, where all
                         users with membership in that group inherit that policy.
-                        <br />
-                        <br />
-                        You can learn more at our{" "}
-                        <a
-                          href="https://docs.min.io/minio/k8s/tutorials/group-management.html?ref=con"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          documentation
-                        </a>
-                        .
                       </Fragment>
                     }
                   />
