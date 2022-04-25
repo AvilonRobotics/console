@@ -18,7 +18,7 @@ import React, { SVGProps } from "react";
 
 const ConsoleLogo = (props: SVGProps<SVGSVGElement>) => {
   return <div style={{ color:"white", fontSize: "1.25rem"}}>
-    avilon robotic
+    avilon ROBOTICS
   </div>
   // return (
   //   <svg

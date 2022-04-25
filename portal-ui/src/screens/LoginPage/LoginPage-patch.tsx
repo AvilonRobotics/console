@@ -619,7 +619,7 @@ const Login = ({
             <div className="left-items">
               <div className="left-logo">
                 {/* <LoginMinIOLogo /> */}
-                avilon robotics
+                avilon ROBOTICS
               </div>
               <div className="text-line2">{consoleText}</div>
               {/* <div className="text-line3">Multi-Cloud Object Storage</div> */}
